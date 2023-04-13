@@ -1,0 +1,25 @@
+* {
+  border: 1px solid rgba(255, 0, 127, 100%);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.info {
+  text-align: right;
+  width: 50%;
+}
+
+.chat {
+  width: 50%;
+}
